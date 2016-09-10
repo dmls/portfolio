@@ -44,7 +44,6 @@ body {
 .header div {
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 25px;
 }
 
 .header .logo {
@@ -63,10 +62,19 @@ body {
 	margin: 25px 20px 0;
 }
 
+.headerText {
+	margin-top: 25px; 
+}
+
 .header .links {
 	float: right;
+	padding-top: 18px;
 }
 
 .header .links a {
 	text-decoration: none;
+}
+
+#main {
+	padding: 15px;
 }
