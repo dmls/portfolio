@@ -84,12 +84,12 @@ body {
 	padding: 45px;
 	box-sizing: border-box;
 	max-width: 980px; 
-	border-radius: 1px;
 }
 
 .content {
 	padding: 45px;
 	border: 1px solid #ddd;
+	border-radius: 3px;
 }
 
 .content h1,
