@@ -14,14 +14,14 @@ myApp.config(function ($routeProvider) {
 		})
 
 		// portfolio page
-		.when('/portfolio', {
-			templateUrl: 'components/portfolio/portfolio.html',
-			controller: 'portfolioController'
+		.when('/github', {
+			templateUrl: 'components/github/github.html',
+			controller: 'githubController'
 		});
 });
 
 myApp.controller('mainController', function($scope) {
 });
 
-myApp.controller('portfolioController', function($scope) {
+myApp.controller('githubController', function($scope) {
 });
