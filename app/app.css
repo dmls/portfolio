@@ -110,6 +110,40 @@ body {
 	color: #1eaeeb;
 }
 
+.techIcon {
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 200px;
+}
+
+.techIconsRow {
+	display: block;
+	text-align: center;
+}
+
+.techIconName {
+	display: inline-block;
+}
+
+.techIcon_php {
+	background-image: url('./images/logo_php.png');
+}
+
+.techIcon_javascript {
+	background-image: url('./images/logo_javascript.png');
+}
+
+.techIcon_linux {
+	background-image: url('./images/logo_linux.png');
+}
+
+.techIcon_magento {
+	background-image: url('./images/logo_magento.png');
+	width: 150px;
+}
+
 @media (max-width: 480px) {
 	.header .logo {
 		display: block;
