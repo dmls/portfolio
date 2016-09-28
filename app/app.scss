@@ -1,0 +1,174 @@
+$mobileWidth: 480px;
+
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/* site styles */
+
+body {
+	margin: 0;
+	font-family: "Open-Sans", sans-serif;
+	color: #121317;
+}
+
+.header {
+	padding: 15px;
+	border-bottom: 1px solid #ccc;
+
+	div {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.links {
+		float: right;
+		padding-top: 18px;
+		
+		a {
+			color: #121317;
+			text-decoration: none;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	}
+}
+
+.logo {
+	width: 140px;
+	height: 80px;
+	background: url('images/logo.png');
+	background-size: contain;
+	background-repeat: none;
+}
+
+.heading {
+	margin: 25px 20px 0;
+}
+
+.headerText {
+	margin-top: 25px; 
+}
+
+#main {
+	margin: 40px auto; 
+	padding: 45px;
+	box-sizing: border-box;
+	max-width: 980px; 
+}
+
+.content {
+	padding: 45px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+
+	h1,
+	h2 {
+		padding-bottom: 0.3em;
+		border-bottom: 1px solid #eee;
+	}
+
+	h1:first-child {
+		margin-top: 0;
+	}
+
+	p { 
+		line-height: 30px;
+	}
+
+	a {
+		color: #1eaeeb;
+	}
+}
+
+.techIcon {
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 200px;
+}
+
+.techIconsRow {
+	display: block;
+	text-align: center;
+}
+
+.techIconName {
+	display: inline-block;
+}
+
+.techIcon_php {
+	background-image: url('./images/logo_php.png');
+}
+
+.techIcon_javascript {
+	background-image: url('./images/logo_javascript.png');
+}
+
+.techIcon_linux {
+	background-image: url('./images/logo_linux.png');
+}
+
+.techIcon_magento {
+	background-image: url('./images/logo_magento.png');
+	width: 150px;
+}
+
+@media (max-width: 480px) {
+	.header .logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.header .headerText {
+		display: block;
+		text-align: center;
+	}
+
+	.header .links {
+		float: none;
+		margin: 5px auto;
+		display: block;
+		text-align: center;
+	}
+
+	#main {
+		padding: 6px;
+	}
+
+	.content {
+		padding: 10px;
+	}
+}
