@@ -8,7 +8,7 @@ var dest = 'app/';
 
 gulp.task('styles', function() {
 	gulp.src(source)
-		.pipe(sass())
+		.pipe(sass({outputStyle: 'compressed'}))
 		.pipe(gulp.dest(dest));
 });
 
