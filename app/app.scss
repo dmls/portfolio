@@ -121,8 +121,9 @@ body {
 	display: inline-block;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 150px;
-	height: 200px;
+	margin-right: 40px;
+	width: 70px;
+	height: 60px;
 }
 
 .techIconsRow {
@@ -130,12 +131,22 @@ body {
 	text-align: center;
 }
 
-.techIconName {
+.techIconContainer {
 	display: inline-block;
+	padding: 20px 0;
+	text-align: left;
+	width: 210px;
+}
+
+.techIcon_name {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
 }
 
 .techIcon_php {
 	background-image: url('./images/logo_php.png');
+	margin-top: 10px;
 }
 
 .techIcon_javascript {
@@ -148,7 +159,22 @@ body {
 
 .techIcon_magento {
 	background-image: url('./images/logo_magento.png');
-	width: 150px;
+}
+
+.techIcon_mysql {
+	background-image: url('./images/logo_mysql.png');
+}
+
+.techIcon_wordpress {
+	background-image: url('./images/logo_wordpress.png');
+}
+
+.techIcon_html {
+	background-image: url('./images/logo_html5.png');
+}
+
+.techIcon_devops {
+	background-image: url('./images/logo_devops.png');
 }
 
 @media (max-width: 480px) {
