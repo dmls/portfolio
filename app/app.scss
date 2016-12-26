@@ -1,7 +1,11 @@
 $mobileWidth: 480px;
 $mobilemax: '(max-width: $mobileWidth)';
+$white: #fff;
+$black: #000;
+$teal: #42dca3;
 /* app css stylesheet */
 
+/* header */
 .menu {
 	list-style: none;
 	border-bottom: 0.1em solid black;
@@ -12,31 +16,38 @@ $mobilemax: '(max-width: $mobileWidth)';
 		background: red;
 	}
 
-}
+	&:before {
+		content: "[";
+	}
 
-.menu:before {
-	content: "[";
-}
+	&:after {
+		content: "]";
+	}
 
-.menu:after {
-	content: "]";
-}
+	li {
+		display: inline;
+		
+		&:before {
+			content: "|";
+			padding-right: 0.3em;
+		}
 
-.menu > li {
-	display: inline;
-}
-
-.menu > li:before {
-	content: "|";
-	padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-	content: "";
-	padding: 0;
+		&:nth-child(1):before {
+			content: "";
+			padding: 0;
+		}
+	}
 }
 
 /* site styles */
+
+p {
+	margin: 0;
+}
+
+li {
+	padding: 5px 0;
+}
 
 body {
 	margin: 0;
@@ -177,29 +188,217 @@ body {
 	background-image: url('./images/logo_devops.png');
 }
 
-@media (max-width: 480px) {
-	.header .logo {
-		display: block;
-		margin: 0 auto;
+
+// new 
+.sectionIntro {
+	background-image: url('./images/intro-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: bottom;
+	width: 100%;
+}
+
+.sectionBlack {
+	background: $black;
+
+	.sectionContent {
+		color: $white;
 	}
 
-	.header .headerText {
+	p {
+		color: $white;
+	}
+}
+
+.sectionAbout {
+	text-align: center;
+	padding: 200px 0;
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+.sectionIntro-content {
+	padding: 355px 0;
+}
+
+.sectionContent {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+.sectionIntro h1,
+.sectionPictured h2 {
+	text-align: center;
+	color: $white;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.sectionPictured {
+	background: url('images/about-bg.jpg') no-repeat center;
+	background-size: cover;
+	font-family: 'Times New Roman';
+
+	.sectionContent {
+		width: 1170px;
+		max-width: none;
+		padding: 100px 0;
+		color: $white;
+		font-size: 20px;
+	}
+
+	h2 {
+		text-align: left;
+		font-size: 30px;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	}
+
+	li {
+		padding: 5px 0;
+	}
+
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+.sectionTech {
+	padding: 100px 0; 
+	text-align: center;
+	
+	h2,
+	p {
+		padding: 10px 0;
+	}
+
+	ul {
+		display: inline-block;
+		text-align: left;
+		padding: 10px 70px;
+	}
+}
+
+.sectionContact {
+	background: url('images/alignment-bg.jpg') no-repeat center;
+	background-size: cover;
+
+	.sectionContent {
+		padding: 200px 0;
+	}
+}
+
+.contactForm {
+	label {
+		color: $white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	input {
+		display: block;
+		width: 100%;
+		margin: 10px auto 15px;
+		padding: 10px 0;
+		border-radius: 3px;
+	}
+
+	.contactForm-content {
+		width: 100%;
+		height: 200px;
+		border-radius: 3px;
+		margin: 10px auto 15px;
+	}
+}
+
+.contactForm-container {
+	width: 400px;
+	margin: 0 auto;
+	background: $black;
+	border-radius: 20px;
+}
+
+.contactForm-head {
+	width: 100%;
+	background: $teal;
+	border-radius: 20px 20px 0 0;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	
+	h3 {
+		text-transform: uppercase;
+	}
+}
+
+.contactForm-fields {
+	margin: 0 25px;
+	padding-bottom: 32px;
+}
+
+.contactForm-submit {
+	background: $teal;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 18px 32px !important;
+	margin-top: 18px !important;
+}
+
+.circle {
+	width: 70px;
+	height: 70px;
+	border: 2px solid;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 45px;
+	text-decoration: none;
+
+	p {
+		margin: 10px 0 0 0;
+	}
+}
+
+.circleWhite {
+	border-color: #fff;
+	color: #fff;
+}
+
+.downArrows:before {
+	content: "▼";
+}
+
+a.circleWhite {
+	display: block;
+	margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+.header {
+	.logo { 
+		display: block; margin: 0 auto;
+	}
+
+	.headerText {
 		display: block;
 		text-align: center;
 	}
 
-	.header .links {
+	.links {
 		float: none;
 		margin: 5px auto;
 		display: block;
 		text-align: center;
 	}
+}
 
-	#main {
-		padding: 6px;
-	}
+#main {
+	padding: 6px;
+}
 
-	.content {
-		padding: 10px;
-	}
+.content {
+	padding: 10px;
+}
+
 }
