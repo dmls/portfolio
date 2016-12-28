@@ -45,8 +45,19 @@ p {
 	margin: 0;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 li {
-	padding: 5px 0;
+	padding: 10px 0 10px 1em;
+}
+
+li:before {
+	content: "• ";
+	color: $teal;
 }
 
 body {
@@ -227,14 +238,14 @@ body {
 }
 
 .sectionIntro h1,
-.sectionPictured h2 {
+.sectionGithub h2 {
 	text-align: center;
 	color: $white;
 	font-size: 40px;
 	text-transform: uppercase;
 }
 
-.sectionPictured {
+.sectionGithub {
 	background: url('images/about-bg.jpg') no-repeat center;
 	background-size: cover;
 	font-family: 'Times New Roman';
@@ -343,7 +354,6 @@ body {
 	border-radius: 3px;
 	font-size: 18px;
 	padding: 18px 32px !important;
-	margin-top: 18px !important;
 }
 
 .circle {
