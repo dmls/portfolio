@@ -66,6 +66,21 @@ body {
 	color: #121317;
 }
 
+/* form */
+form {
+	.ng-invalid {
+		&.ng-touched {
+			border: 4px solid #fa787e;
+		}
+	}
+
+	.ng-valid {
+		&.ng-touched {
+			border: 4px solid #78ea89;	
+		}
+	}
+}
+
 .header {
 	padding: 15px;
 	border-bottom: 1px solid #ccc;
@@ -311,8 +326,13 @@ body {
 		display: block;
 		width: 100%;
 		margin: 10px auto 15px;
-		padding: 10px 0;
+		padding: 10px 6px;
+		box-sizing: border-box;
 		border-radius: 3px;
+	}
+
+	textarea {
+		box-sizing: border-box;	
 	}
 
 	.contactForm-content {
@@ -320,6 +340,10 @@ body {
 		height: 200px;
 		border-radius: 3px;
 		margin: 10px auto 15px;
+	}
+	
+	.yesno {
+		display: none;
 	}
 }
 

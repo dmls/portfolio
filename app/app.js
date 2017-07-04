@@ -25,3 +25,14 @@ myApp.controller('mainController', function($scope) {
 
 myApp.controller('githubController', function($scope) {
 });
+
+myApp.controller('formController', ['$scope', function($scope) {
+	$scope.master = {};
+
+	$scope.update = function(user) {
+		$scope.master = angular.copy(user);
+	};
+
+}]);
+
+
