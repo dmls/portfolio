@@ -315,6 +315,22 @@ form {
 	}
 }
 
+.contactSimple {
+	background: $black;
+	padding: 30px;
+	border-radius: 4px;
+	text-align: center;
+
+	span {
+		color: $white;
+	}
+
+	a {
+		color: $teal;
+		text-decoration: none;
+	}
+}
+
 .contactForm {
 	label {
 		color: $white;

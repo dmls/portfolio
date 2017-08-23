@@ -6,7 +6,7 @@ $(document).on('submit', '#contactForm', function(e) {
 	{
 		alert('Please fill out only the required fields.');
 	}
-
+	
 	$.ajax({
 		url: 'contact.php',
 		content: data
