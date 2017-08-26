@@ -2,7 +2,7 @@ $mobileWidth: 480px;
 $mobilemax: '(max-width: $mobileWidth)';
 $white: #fff;
 $black: #000;
-$teal: #42dca3;
+$blue: #1eaeeb;
 /* app css stylesheet */
 
 /* header */
@@ -57,7 +57,7 @@ li {
 
 li:before {
 	content: "• ";
-	color: $teal;
+	color: $blue;
 }
 
 body {
@@ -243,6 +243,12 @@ form {
 	font-size: 20px;
 }
 
+.sectionIntro {
+	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .sectionIntro-content {
 	padding: 355px 0;
 }
@@ -278,6 +284,10 @@ form {
 		font-size: 30px;
 		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
+	}
+
+	ul {
+		margin: 30px 0;	
 	}
 
 	li {
@@ -326,7 +336,7 @@ form {
 	}
 
 	a {
-		color: $teal;
+		color: $blue;
 		text-decoration: none;
 	}
 }
@@ -372,7 +382,7 @@ form {
 
 .contactForm-head {
 	width: 100%;
-	background: $teal;
+	background: $blue;
 	border-radius: 20px 20px 0 0;
 	padding: 20px;
 	box-sizing: border-box;
@@ -389,7 +399,7 @@ form {
 }
 
 .contactForm-submit {
-	background: $teal;
+	background: $blue;
 	border: none;
 	border-radius: 3px;
 	font-size: 18px;
