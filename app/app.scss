@@ -432,6 +432,12 @@ a.circleWhite {
 	margin: 0 auto;
 }
 
+@media (max-width: 800px) {
+.sectionContent {
+	margin: 0 3%;
+}
+}
+
 @media (max-width: 480px) {
 .header {
 	.logo { 
