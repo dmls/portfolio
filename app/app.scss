@@ -432,22 +432,7 @@ a.circleWhite {
 	margin: 0 auto;
 }
 
-@media (max-width: 800px) {
-.sectionContent {
-	margin: 0 3%;
-}
-
-}
-
-
-@media (max-width: 700px) {
-.sectionTech ul {
-	padding: 10px;
-}
-}
-
-
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
 .header {
 	.logo { 
 		display: block; margin: 0 auto;
@@ -466,6 +451,25 @@ a.circleWhite {
 	}
 }
 
+}
+
+
+@media (max-width: 800px) {
+.sectionContent {
+	margin: 0 3%;
+}
+
+}
+
+
+@media (max-width: 700px) {
+.sectionTech ul {
+	padding: 10px;
+}
+}
+
+
+@media (max-width: 480px) {
 #main {
 	padding: 6px;
 }
