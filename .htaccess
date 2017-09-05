@@ -1,0 +1,8 @@
+# HTID:2368893: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:2368893:
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/index.html$
+RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|css|js)$
+RewriteRule .* /index.html [L,R=302]
