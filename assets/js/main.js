@@ -23,7 +23,7 @@ var getWorkGalleryItems = function() {
         id: 'dja_ds',
         label: 'DJA Digital Solutions',
         image: './assets/images/work/templategallery-header.jpg',
-        desc: 'DJA had a lot of great work and experience to offer perspective clients. The only problem was that they had nowhere to show it off. That all changed when I built this gallery for them. The items in the gallery are stored in a database file and can be easily edited and added/removed.<br /><a href="https://templategallery.dja.com" target="_blank">Visit site</a>'
+        desc: 'DJA had a lot of great work and experience to offer perspective clients. The only problem was that they had nowhere to show it off. That changed when I built this gallery for them. The items in the gallery are stored in a database file and can be easily edited and added/removed.<br /><a href="https://templategallery.dja.com" target="_blank">Visit site</a>'
     }, {
         id: 'bic',
         label: 'BIC Razors Rebate',
