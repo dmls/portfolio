@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="./assets/css/portfolio.jquery.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/main.css" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/velocity/1.0.0/velocity.min.js"></script>
+    <script type="text/javascript" src="./assets/js/portfolio.jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/navigate.js"></script>
+    <script type="text/javascript" src="./assets/js/wordcloud.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+
+    <title>Dan | Hello</title>
+</head>
+
+<body>
+    <nav>
+        <section id="buttons">
+            <article class="buttons-navi">
+                <i class="button button-prev fa fa-arrow-left text-white" aria-hidden="true"></i>
+                <i class="button button-next fa fa-arrow-right text-white" aria-hidden="true"></i>
+            </article>
+            <article class="buttons-menu">
+                <div class="button">
+                    <div class="button-wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="menu">
+            <article class="menu-content">
+                <ul>
+                    <li id="front">Main</li>
+                    <li id="right">Work</li>
+                    <li id="back">Skills</li>
+                    <li id="left">Contact</li>
+                </ul>
+            </article>
+        </section>
+    </nav>
+
+    <main id="pages">
+        <section id="main" class="pt-5">
+            <article class="main-content container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="text-large font-weight-bold">Hello, my name is Dan.</h1>
+                        <p>Nice to meet you. I'm a full-stack web developer from New York who helps agencies and businesses bring their ideas to life.</p>
+                        <p>I obsess over code quality and finding the best possible solutions to problems even when there may not be one right answer.</p>
+                        <p>In my free time I scroll through the internet, work out, and give away free food to the less fortunate with a local org.</p>
+
+                        <div class="type-js">
+                            <p class="text-js text-secondary">Frontend / Backend / Devops</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-5">
+                        <img class="img-fluid ml-0 ml-md-5" src="./assets/images/misc/editor.jpg" />
+                        
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="about">
+            <article class="about-content container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="text-cyan">Skills & Experience<i class="fa fa-code ml-2 text-white" aria-hidden="true"></i></h1>
+
+                        <p>PHP, JavaScript, HTML, and CSS on the web stack, Linux, Apache, MySQL, MongoDB on the server side.</p>
+                        <p>I can build applications from the ground up or using CMS frameworks like WordPress and Magento.</p>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 d-none d-md-block">
+                        <div id="word-cloud" class="text-white"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="work">
+            <article class="work-content container-fluid">
+                <div class="col">
+                    <ul class="thumbs d-block"">
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section id="contact">
+            <article class="contact-content container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-0 pt-0 mt-md-5 pt-md-5">
+                        <div>
+                            <h1 class="text-cyan">Contact me<i class="fa fa-envelope text-white ml-2" aria-hidden="true"></i></h1>
+                            <p>I'm interested in freelance work of any scale. Please get in touch.</p>
+                            <p><a href="mailto:danmlsv@gmail.com" target="_blank">danmlsv@gmail.com</a></p>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6">
+                        <img class="img-fluid" src="./assets/images/misc/map.jpg" />
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
