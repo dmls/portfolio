@@ -3,7 +3,6 @@ body {
     perspective: 2000px;
     -webkit-perspective-origin: center;
     perspective-origin: center;
-    /* overflow: hidden; */
     background-color: #222222;
     width: 100vw;
     height: 100vh;
@@ -128,15 +127,16 @@ body nav #menu ul li {
     -webkit-transform-origin: 50% 50% -50vw;
     -o-transform-origin: 50% 50% -50vw;
     transform-origin: 50% 50% -50vw;
-    min-height: 100%;
     width: 100%;
+    height: 2050px;
+    min-height: 100%;
     position: relative;
 }
 
 #pages section {
     position: absolute;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
