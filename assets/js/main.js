@@ -20,6 +20,11 @@ var getModal = function(config) {
 
 var getWorkGalleryItems = function() {
     return [{
+        id: 'parallax_tilt',
+        label: 'Parallax-Tilt Gallery',
+        image: './assets/images/work/parallax-gallery.png',
+        desc: 'I created an image gallery with some cool tilt and parallax scrolling effects in React based on a design that was presented to me. It would make for a great product or case study gallery. Some of the effects still need some work in certain mobile browsers.<br /><a href="http://danmlsv.com/parallax-gallery" target="_blank">Visit site</a>'
+    }, {
         id: 'dja_ds',
         label: 'DJA Digital Solutions',
         image: './assets/images/work/templategallery-header.jpg',
