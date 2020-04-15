@@ -28,7 +28,7 @@ var getWorkGalleryItems = function() {
         id: 'full_page_slide_nav',
         label: 'Full Page Slide Navigation',
         image: './assets/images/work/slide-nav.png',
-        desc: 'A great looking animated full page navigation menu that I saw on a website. I decided to take a stab at rebuilding it on my own and I\'m glad with the way it turned out and how smooth it is.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://danmlsv.com/full-page-slide-nav" target="_blank">Visit site</a>'
+        desc: 'A great looking animated full page navigation menu that I saw on a website. I decided to take a stab at rebuilding it on my own. I built this one using React and the animations use good old fashioned CSS/SASS without any JavaScript.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://danmlsv.com/full-page-slide-nav" target="_blank">Visit site</a>'
     }, {
         id: 'dja_ds',
         label: 'DJA Digital Solutions',
