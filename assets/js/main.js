@@ -25,10 +25,15 @@ var getWorkGalleryItems = function() {
         image: './assets/images/work/parallax-gallery.png',
         desc: 'I created an image gallery with some cool tilt and parallax scrolling effects in React based on a design that was presented to me. It would make for a great product or case study gallery. Some of the effects still need some work in certain mobile browsers.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://danmlsv.com/parallax-gallery" target="_blank">Visit site</a>'
     }, {
+        id: 'full_page_slide_nav',
+        label: 'Full Page Slide Navigation',
+        image: './assets/images/work/slide-nav.png',
+        desc: 'A great looking animated full page navigation menu that I saw on a website. I decided to take a stab at rebuilding it on my own and I\'m glad with the way it turned out and how smooth it is.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://danmlsv.com/full-page-slide-nav" target="_blank">Visit site</a>'
+    }, {
         id: 'dja_ds',
         label: 'DJA Digital Solutions',
         image: './assets/images/work/templategallery-header.jpg',
-        desc: 'DJA had a lot of great work and experience to offer perspective clients. The only problem was that they had nowhere to show it off. That changed when I built this gallery for them. The items in the gallery are stored in a database file and can be easily edited and added/removed.<br /><i class="fa fa-link text-white mr-2"></i><a href="https://templategallery.dja.com" target="_blank">Visit site</a>'
+        desc: 'DJA had a lot of great work and experience to offer perspective clients. The only problem was that they had nowhere to show it off. That changed when we worked on this gallery for them. The items in the gallery are stored in a database file and can be easily edited and added/removed.<br /><i class="fa fa-link text-white mr-2"></i><a href="https://templategallery.dja.com" target="_blank">Visit site</a>'
     }, {
         id: 'bic',
         label: 'BIC Razors Rebate',
