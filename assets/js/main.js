@@ -20,6 +20,11 @@ var getModal = function(config) {
 
 var getWorkGalleryItems = function() {
     return [{
+        id: 'rainforest_alliance',
+        label: 'Rainforest Alliance',
+        image: './assets/images/work/rainforest.jpeg',
+        desc: 'A site for the Rainforest Alliance conservation efforts. The backend is a headless CMS called Strapi and the frontend uses React.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://146.148.41.238/" target="_blank">Visit site</a><br /><i class="fa fa-github text-white mr-2" aria-hidden="true"></i><a href="https://github.com/dmls/srfolio-fe" target="_blank">Github Repo</a>'
+    }, {
         id: 'parallax_tilt',
         label: 'Parallax-Tilt Gallery',
         image: './assets/images/work/parallax-gallery.png',
