@@ -20,11 +20,18 @@ var getModal = function(config) {
 
 var getWorkGalleryItems = function() {
     return [{
-        id: 'rainforest_alliance',
-        label: 'Rainforest Alliance',
-        image: './assets/images/work/rainforest.jpeg',
-        desc: 'A site for the Rainforest Alliance conservation efforts. The backend is a headless CMS called Strapi and the frontend uses React.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://146.148.41.238/" target="_blank">Visit site</a><br /><i class="fa fa-github text-white mr-2" aria-hidden="true"></i><a href="https://github.com/dmls/srfolio-fe" target="_blank">Github Repo</a>'
-    }, {
+        id: 'diversity_in_music',
+        label: 'Diversity in Music',
+        image: './assets/images/work/diversity-in-music.png',
+        desc: 'Culture Collective reached out to me to build a site to help people from the music industry find work who have found themselves jobless due to the COVID-19 pandemic. Users can register to create a profile and prospective employers can easily find them based on several search parameters.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://staging.diversityinmusic.org" target="_blank">Visit site</a>'
+    }, 
+    // {
+    //     id: 'rainforest_alliance',
+    //     label: 'Rainforest Alliance',
+    //     image: './assets/images/work/rainforest.jpeg',
+    //     desc: 'A site for the Rainforest Alliance conservation efforts. The backend is a headless CMS called Strapi and the frontend uses React.<br /><i class="fa fa-link text-white mr-2" aria-hidden="true"></i><a href="http://146.148.41.238/" target="_blank">Visit site</a><br /><i class="fa fa-github text-white mr-2" aria-hidden="true"></i><a href="https://github.com/dmls/srfolio-fe" target="_blank">Github Repo</a>'
+    // }, 
+    {
         id: 'parallax_tilt',
         label: 'Parallax-Tilt Gallery',
         image: './assets/images/work/parallax-gallery.png',
