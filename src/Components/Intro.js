@@ -6,15 +6,23 @@ class Intro extends React.Component {
     return (
       <Container fluid id="intro" className="bg-blueDark text-center vh-100">
         <Row>
-          <Col className="font-poppins-bg">WEB DEVELOPMENT</Col>
+          <Col className="font-poppins-bg">Webdev</Col>
         </Row>
 
-        <Row>
-          <Col className="text-blue">Hello, my name is Dan</Col>
-        </Row>
+        <Row className="h-100 d-table">
+          <Col className="d-table-cell align-middle">
+            <Row>
+              <Col className="text-blue">
+                <h2>Hello Everyone</h2>
+              </Col>
+            </Row>
 
-        <Row className="justify-content-center">
-          <Col sm={8} className="text-white"><h1>Full-stack web developer from New York who helps agencies and businesses bring their ideas to life.</h1></Col>
+            <Row className="justify-content-center">
+              <Col sm={8} className="text-white py-3">
+                <h1>My name is Dan and I'm a full-stack web developer from New York who helps agencies and businesses bring their ideas to life.</h1>
+              </Col>
+            </Row>
+          </Col>
         </Row>
       </Container>
     );

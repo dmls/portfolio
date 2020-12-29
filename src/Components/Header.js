@@ -22,7 +22,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <Container fluid className="bg-blueDark py-4">
+      <Container fluid className="bg-blueDark position-fixed py-4">
         <Row className="mx-5">
           <Col>
             <h2 className="font-poppins">Web Development</h2>
