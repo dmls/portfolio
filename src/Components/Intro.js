@@ -6,7 +6,7 @@ class Intro extends React.Component {
     return (
       <Container fluid id="intro" className="intro bg-blueDark text-center vh-100">
         <Row className="d-none d-md-flex h-100">
-          <Col style={{marginTop: 'auto', marginBottom: 'auto'}}><div className="font-poppins-bg">Webdev</div></Col>
+          <Col style={{marginTop: 'auto', marginBottom: 'auto'}}><div className="font-poppins-bg" style={{marginTop: '-200px'}}>Webdev</div></Col>
         </Row>
 
         <Row className="h-100 position-absolute bgTextContent" style={{width: '100%'}}>
