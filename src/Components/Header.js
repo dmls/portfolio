@@ -37,7 +37,7 @@ class Header extends React.Component {
             <div className="float-right mt-4">
               {this.navItems.map(function(item, index) {
                 return (
-                  <a className="ml-3 text-white font-weight-bold" href={item.url}>{item.label}</a>
+                  <a className="ml-3 ml-md-5 text-white font-weight-bold" href={item.url}>{item.label}</a>
                 );
               })}
             </div>
