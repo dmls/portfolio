@@ -23,7 +23,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <Container fluid className="bg-blueDark position-fixed py-4">
+      <Container fluid className="bg-blueDark position-fixed py-4" style={{zIndex: 900}}>
         <Row className="mx-5">
           <Col sm={12} md={6}>
             <Row>

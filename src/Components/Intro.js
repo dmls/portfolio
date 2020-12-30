@@ -5,12 +5,12 @@ class Intro extends React.Component {
   render() {
     return (
       <Container fluid id="intro" className="bg-blueDark text-center vh-100">
-        <Row>
-          <Col className="font-poppins-bg">Webdev</Col>
+        <Row className="h-100">
+          <Col style={{marginTop: 'auto', marginBottom: 'auto'}}><div className="font-poppins-bg">Webdev</div></Col>
         </Row>
 
-        <Row className="h-100 d-table">
-          <Col className="d-table-cell align-middle">
+        <Row className="h-100 position-absolute" style={{top: 90, width: '100%'}}>
+          <Col style={{marginTop: 'auto', marginBottom: 'auto'}} className="align-middle">
             <Row>
               <Col className="text-blue">
                 <h2>Hello Everyone</h2>
