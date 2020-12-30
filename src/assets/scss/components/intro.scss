@@ -1,0 +1,9 @@
+.intro .bgTextContent {
+    top: 0;
+}
+
+@media screen and (max-width: $mobileBreak) {
+    .intro .bgTextContent {
+        top: 90px;
+    }
+}

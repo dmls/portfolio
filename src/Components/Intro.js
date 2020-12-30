@@ -4,12 +4,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Intro extends React.Component {
   render() {
     return (
-      <Container fluid id="intro" className="bg-blueDark text-center vh-100">
-        <Row className="h-100">
+      <Container fluid id="intro" className="intro bg-blueDark text-center vh-100">
+        <Row className="d-none d-md-flex h-100">
           <Col style={{marginTop: 'auto', marginBottom: 'auto'}}><div className="font-poppins-bg">Webdev</div></Col>
         </Row>
 
-        <Row className="h-100 position-absolute" style={{top: 90, width: '100%'}}>
+        <Row className="h-100 position-absolute bgTextContent" style={{width: '100%'}}>
           <Col style={{marginTop: 'auto', marginBottom: 'auto'}} className="align-middle">
             <Row>
               <Col className="text-blue">
