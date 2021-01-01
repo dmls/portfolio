@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Container } from 'react-bootstrap';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
+import Work from './Components/Work';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
       <Header />
       <Intro />
+      <Work />
     </>
   );
 }
