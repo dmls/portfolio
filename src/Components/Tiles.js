@@ -13,9 +13,9 @@ class Tiles extends React.Component {
                   <Col className="tile" style={{backgroundImage: 'url("' + item.image + '")'}}>
                     <div class="tileContent">
                       <div class="tileContentInner">
-                        <span>Super Heading</span>
-                        <a href="#">
-                          <h3>Title</h3>
+                        <span>{item.description}</span>
+                        <a href={item.url}>
+                          <h3>{item.title}</h3>
                         </a>
                       </div>
                     </div>
