@@ -8,11 +8,17 @@ class Tiles extends React.Component {
         <Row>
           {this.props.items.map(function(item, index) {
             return (
-              <Col sm={4}>
+              <Col sm={6} md={4}>
                 <Row className="tileContainer">
                   <Col className="tile" style={{backgroundImage: 'url("' + item.image + '")'}}>
-                    <a href={item.url}>
-                    </a>
+                    <div class="tileContent">
+                      <div class="tileContentInner">
+                        <span>Super Heading</span>
+                        <a href="#">
+                          <h3>Title</h3>
+                        </a>
+                      </div>
+                    </div>
                   </Col>
                 </Row>
               </Col>
