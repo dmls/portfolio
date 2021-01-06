@@ -11,15 +11,15 @@ class Services extends React.Component {
     let items = [{
       icon: imgCube,
       title: 'Backend',
-      text: 'Deserunt proident exercitation in in veniam enim ad qui consequat. Eu ex ipsum esse consectetur sint esse tempor velit amet dolor nostrud. Exercitation irure aliqua ea est ut.'
+      text: 'Building data structures, APIs, and CMSes to ensure that all of your important backend business logic fires every time without a hitch.'
     }, {
       icon: imgLayers,
       title: 'Frontend',
-      text: 'Deserunt proident exercitation in in veniam enim ad qui consequat. Eu ex ipsum esse consectetur sint esse tempor velit amet dolor nostrud. Exercitation irure aliqua ea est ut.'
+      text: 'Using modern frontend technologies to create beautiful and responsive web applications that will look great on any device.'
     }, {
       icon: imgPaper,
       title: 'Devops',
-      text: 'Deserunt proident exercitation in in veniam enim ad qui consequat. Eu ex ipsum esse consectetur sint esse tempor velit amet dolor nostrud. Exercitation irure aliqua ea est ut.'
+      text: 'Spinning up reliable web servers, databases, and load balancers that will respond quickly to site requests for all of your users.'
     }];
 
     let content = (
