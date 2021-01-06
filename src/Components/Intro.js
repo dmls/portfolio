@@ -22,6 +22,7 @@ class Intro extends React.Component {
 
     return (
       <SectionBgText 
+        id="intro"
         containerClasses="intro bg-blueDark text-center vh-100"
         bgText="Webdev"
         content={content}

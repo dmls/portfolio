@@ -9,7 +9,7 @@ code {
 .font-poppins-bg {
     text-transform: uppercase;
     z-index: 1;
-    -webkit-text-stroke: 1px #1E273D;
+    -webkit-text-stroke: 1px #2f384e;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
     font-family: "Poppins", sans-serif;
@@ -18,4 +18,8 @@ code {
 .font-poppins-bg {
     text-align: center;
     font-size: 10em;
+}
+
+.secBgTextLightBg {
+    -webkit-text-stroke: 1px #EFEFF1;
 }
