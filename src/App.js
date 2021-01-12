@@ -6,6 +6,7 @@ import Intro from './Components/Intro';
 import Work from './Components/Work';
 import Services from './Components/Services';
 import Tech from './Components/Tech';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Work />
       <Services />
       <Tech />
+      <Contact />
     </>
   );
 }

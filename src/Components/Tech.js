@@ -22,7 +22,7 @@ class Tech extends React.Component {
 
     return (
       <SectionBgText
-        containerClasses="vh-75 bg-blue text-white"
+        containerClasses="tech bg-blue text-white"
         bgText="Technology"
         content={content}
       />
