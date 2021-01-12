@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Intro from './Components/Intro';
 import Work from './Components/Work';
 import Services from './Components/Services';
+import Tech from './Components/Tech';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Intro />
       <Work />
       <Services />
+      <Tech />
     </>
   );
 }

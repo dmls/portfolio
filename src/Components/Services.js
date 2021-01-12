@@ -23,7 +23,7 @@ class Services extends React.Component {
     }];
 
     let content = (
-      <Col className="align-middle pt-5 mt-auto mb-auto">
+      <Col className="align-middle mt-auto mb-auto">
         <Container>
           <Row>
             {items.map(function(item, index) {
@@ -54,7 +54,7 @@ class Services extends React.Component {
 
     return (
       <SectionBgText
-        containerClasses="vh-50"
+        containerClasses="services"
         lightBg={true}
         bgText="Services"
         content={content}
