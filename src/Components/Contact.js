@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpenText, faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import resume from '../assets/pdf/Dan-Morales-Resume.pdf';
 import imgMap from '../assets/images/map.png';
@@ -21,6 +22,11 @@ class Contact extends React.Component {
             <p>
               <FontAwesomeIcon className="mr-2" icon={faFilePdf} />
               <a href={resume} target="_blank" rel="noreferrer">Resume</a>
+            </p>
+
+            <p>
+              <FontAwesomeIcon className="mr-2" icon={faGithub} />
+              <a href="https://github.com/dmls" target="_blank" rel="noreferrer">Github</a>
             </p>
           </Col>
 
