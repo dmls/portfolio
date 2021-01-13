@@ -6,7 +6,7 @@ class RModal extends Component {
     return (
       <Modal size="xl" show={this.props.show} onHide={() => this.props.onHide({ msg: 'Cross Icon Clicked!' })}>
         <Modal.Header closeButton>
-          <Modal.Title>{this.props.mdata.title.replace(/(<([^>]+)>)/gi, "")}</Modal.Title>
+          <Modal.Title>{this.props.mdata.title.replace(/(<([^>]+)>)/gi, " ")}</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
