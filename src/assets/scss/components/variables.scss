@@ -1,0 +1,17 @@
+$largeBreak: 768px;
+$smallBreak: 576px;
+
+$blue: #0181F5;
+$blueDark: #040E27;
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-blueDark {
+    background-color: $blueDark;
+}
+
+.text-blue {
+    color: $blue;
+}

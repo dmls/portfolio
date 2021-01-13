@@ -1,0 +1,9 @@
+.services {
+    height: 640px;
+}
+
+@media (max-width: $largeBreak) {
+    .services {
+        height: 840px;
+    }
+}
