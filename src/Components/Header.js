@@ -27,11 +27,11 @@ class Header extends React.Component {
         <Row className="mx-5">
           <Col sm={12} md={6}>
             <Row>
-              <Col className="d-none d-md-block" sm={2}>
+              <Col className="d-none d-lg-block" sm={2}>
                 <Image fluid src={logo} alt="DM Logo" />
               </Col>
 
-              <Col className="d-sm-block d-md-none text-center">
+              <Col className="d-md-block d-lg-none text-center">
                 <Image className="w-25" src={logo} alt="DM Logo" />
               </Col>
             </Row>
