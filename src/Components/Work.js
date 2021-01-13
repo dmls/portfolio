@@ -86,7 +86,7 @@ class Work extends React.Component {
       subtitle: 'PHP - Magento',
       description: 
       <>
-        <p>A sporting goods manufacturer wanted to provide their site visitors with an easy place to find stores that sold their equipment. I created a database of locations that sold their goods and tied it in with Google Maps so that users could search for nearby stores and see that store\'s contact and address info.</p>
+        <p>A sporting goods manufacturer wanted to provide their site visitors with an easy place to find stores that sold their equipment. I created a database of locations that sold their goods and tied it in with Google Maps so that users could search for nearby stores and see that store's contact and address info.</p>
       </>,
       image: imgLocator
     }, {
