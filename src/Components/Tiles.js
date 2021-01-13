@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Tiles extends React.Component {
   render() {
     return (
-      <Container fluid className="tiles">
+      <Container fluid id={this.props.id} className="tiles">
         <Row>
           {this.props.items.map(function(item, index) {
             return (

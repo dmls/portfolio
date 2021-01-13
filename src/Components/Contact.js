@@ -9,7 +9,7 @@ import imgMap from '../assets/images/map.png';
 class Contact extends React.Component {
   render() {
     return (
-      <Container fluid className="bg-blueDark">
+      <Container fluid id="contact" className="bg-blueDark">
         <Row className="py-5">
           <Col sm={12} md={6} className="align-middle mt-auto mb-auto text-white">
             <h1>Contact me</h1>

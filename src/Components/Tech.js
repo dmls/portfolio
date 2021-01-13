@@ -27,6 +27,7 @@ class Tech extends React.Component {
 
     return (
       <SectionBgText
+        id="tech"
         containerClasses="tech bg-blue text-white"
         bgText="Technology"
         content={content}

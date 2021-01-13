@@ -61,7 +61,7 @@ class Work extends React.Component {
     }];
 
     return (
-      <Tiles items={items} />
+      <Tiles id="work" items={items} />
     );
   }
 }
