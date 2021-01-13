@@ -1,0 +1,9 @@
+.tech {
+    height: 950px;
+}
+
+@media (max-width: $largeBreak) {
+    .tech {
+        height: 890px;
+    }
+}
