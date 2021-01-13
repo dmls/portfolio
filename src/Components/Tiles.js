@@ -1,5 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
+
+import Tile from './Tile';
 
 class Tiles extends React.Component {
   render() {
@@ -8,20 +10,7 @@ class Tiles extends React.Component {
         <Row>
           {this.props.items.map(function(item, index) {
             return (
-              <Col sm={6} md={4}>
-                <Row className="tileContainer">
-                  <Col className="tile" style={{backgroundImage: 'url("' + item.image + '")'}}>
-                    <div class="tileContent">
-                      <div class="tileContentInner">
-                        <span>{item.description}</span>
-                        <a href={item.url}>
-                          <h3>{item.title}</h3>
-                        </a>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
+              <Tile item={item} />
             );
           })}
         </Row>
