@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6e0c8878.chunk.css",
+    "main.js": "./static/js/main.47a1547f.chunk.js",
+    "main.js.map": "./static/js/main.47a1547f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.163a1107.js",
+    "runtime-main.js.map": "./static/js/runtime-main.163a1107.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "./static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.00c1e175.chunk.js": "./static/js/2.00c1e175.chunk.js",
+    "static/js/2.00c1e175.chunk.js.map": "./static/js/2.00c1e175.chunk.js.map",
+    "static/js/3.f1651810.chunk.js": "./static/js/3.f1651810.chunk.js",
+    "static/js/3.f1651810.chunk.js.map": "./static/js/3.f1651810.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "./static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.6e0c8878.chunk.css.map": "./static/css/main.6e0c8878.chunk.css.map",
+    "static/js/2.00c1e175.chunk.js.LICENSE.txt": "./static/js/2.00c1e175.chunk.js.LICENSE.txt",
+    "static/media/Dan-Morales-Resume.2374decc.pdf": "./static/media/Dan-Morales-Resume.2374decc.pdf",
+    "static/media/buckeye.c502b282.jpg": "./static/media/buckeye.c502b282.jpg",
+    "static/media/cube.544148f0.svg": "./static/media/cube.544148f0.svg",
+    "static/media/diversity-in-music.b8fc654f.png": "./static/media/diversity-in-music.b8fc654f.png",
+    "static/media/dja-solutions.1b81c1f4.jpg": "./static/media/dja-solutions.1b81c1f4.jpg",
+    "static/media/estimates.2944bd0c.jpg": "./static/media/estimates.2944bd0c.jpg",
+    "static/media/layers.7faa98a0.svg": "./static/media/layers.7faa98a0.svg",
+    "static/media/locator.d0645870.jpg": "./static/media/locator.d0645870.jpg",
+    "static/media/logo-white.c16111fd.png": "./static/media/logo-white.c16111fd.png",
+    "static/media/map.350cd1ed.png": "./static/media/map.350cd1ed.png",
+    "static/media/marriott.5e06556d.jpg": "./static/media/marriott.5e06556d.jpg",
+    "static/media/modelo.95cc9c33.jpg": "./static/media/modelo.95cc9c33.jpg",
+    "static/media/paper.e4fb2662.svg": "./static/media/paper.e4fb2662.svg",
+    "static/media/parallax-gallery.25c5454f.png": "./static/media/parallax-gallery.25c5454f.png",
+    "static/media/slide-nav.67288979.png": "./static/media/slide-nav.67288979.png",
+    "static/media/tech.46ef33e0.png": "./static/media/tech.46ef33e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.163a1107.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.00c1e175.chunk.js",
+    "static/css/main.6e0c8878.chunk.css",
+    "static/js/main.47a1547f.chunk.js"
+  ]
+}
