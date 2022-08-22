@@ -5,19 +5,27 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import Tiles from './Tiles';
 
+import imgFtw from '../assets/images/work/ftw.png';
 import imgDiversity from '../assets/images/work/diversity-in-music.png';
 import imgParallax from '../assets/images/work/parallax-gallery.png';
 import imgSlideNav from '../assets/images/work/slide-nav.png';
 import imgDjaSolutions from '../assets/images/work/dja-solutions.jpg';
 import imgBuckeye from '../assets/images/work/buckeye.jpg';
 import imgModelo from '../assets/images/work/modelo.jpg';
-import imgLocator from '../assets/images/work/locator.jpg';
 import imgEstimates from '../assets/images/work/estimates.jpg';
 import imgMarriott from '../assets/images/work/marriott.jpg';
 
 class Work extends React.Component {
   render() {
     let items = [{
+      title: 'USA Today SMG',
+      subtitle: 'Custom WordPress',
+      description: 
+      <>
+        <p>A customization of WordPress that dozens of USA Today Sports Media Group sites are running on. There are dozens of custom plugins, modules, and theme work that have been built into this site to serve content to millions of users quickly and reliably.</p>
+      </>,
+      image: imgFtw
+    }, {
       title: 'Diversity in Music<br />Talent Directory',
       subtitle: 'PHP',
       description: 
@@ -81,14 +89,6 @@ class Work extends React.Component {
         <a href="https://buckeyebroadband.com" target="_blank" rel="noreferrer">Visit site</a>
       </>,
       image: imgBuckeye
-    }, {
-      title: 'Sport Store<br />Locator',
-      subtitle: 'PHP - Magento',
-      description: 
-      <>
-        <p>A sporting goods manufacturer wanted to provide their site visitors with an easy place to find stores that sold their equipment. I created a database of locations that sold their goods and tied it in with Google Maps so that users could search for nearby stores and see that store's contact and address info.</p>
-      </>,
-      image: imgLocator
     }, {
       title: 'DJA Estimate<br />Dashboard',
       subtitle: 'PHP',
