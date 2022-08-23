@@ -15,7 +15,7 @@ class Tech extends React.Component {
             Tech<span className="d-none d-lg-inline-block">nology</span> Stack
             <FontAwesomeIcon className="ml-2" icon={faCode} />
           </h1>
-          <p>PHP, JavaScript, HTML, and CSS on the web stack, Linux, Apache, MySQL, MongoDB on the server side.</p>
+          <p>PHP, JavaScript, HTML, and CSS on the application side, Linux, Apache, MySQL, MongoDB on the back end.</p>
           <p>I can build applications from the ground up or using CMS frameworks like WordPress and Magento.</p>
         </Col>
 
