@@ -22,7 +22,7 @@ class Work extends React.Component {
       subtitle: 'Custom WordPress',
       description: 
       <>
-        <p>A customization of WordPress that dozens of USA Today Sports Media Group sites are running on. There are dozens of custom plugins, modules, and theme work that have been built into this site to serve content to millions of users quickly and reliably.</p>
+        <p>A customization of WordPress that over 50 USA Today Sports Media Group sites are running on. There are dozens of custom plugins, modules, and theme work that have been built into this site to serve content to millions of users quickly and reliably.</p>
       </>,
       image: imgFtw
     }, {
