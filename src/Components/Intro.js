@@ -4,7 +4,7 @@ import SectionBgText from './SectionBgText';
 
 class Intro extends React.Component {
   render() {
-    let copy = 'My name is Dan and I\'m a full-stack web developer from New York who helps agencies and businesses bring their ideas to life.';
+    let copy = 'My name is Dan and I\'m a full-stack developer from New York who helps agencies and businesses bring their ideas to life.';
 
     let content = (
       <Col className="align-middle mt-auto mb-auto">
@@ -28,7 +28,7 @@ class Intro extends React.Component {
       <SectionBgText 
         id="intro"
         containerClasses="intro bg-blueDark text-center vh-100"
-        bgText="Webdev"
+        bgText="full stack"
         content={content}
       />
     );
